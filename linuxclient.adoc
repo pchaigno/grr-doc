@@ -97,8 +97,15 @@ git clone -b develop git://github.com/pyinstaller/pyinstaller.git
 
 Get a copy of the GRR source:
 --------------------------------------------------------------------------------
-> git clone https://code.google.com/p/grr/
+> git clone https://github.com/google/grr/
 --------------------------------------------------------------------------------
+
+You will need to precompile protobuf files (since google/grr@82096f82):
+--------------------------------------------------------------------------------
+> cd grr/proto/
+> make
+--------------------------------------------------------------------------------
+
 
 === Configuration ===
 
