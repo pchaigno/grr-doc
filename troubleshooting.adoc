@@ -85,7 +85,7 @@ system:
 sudo apt-get install build-essential uuid-dev zlib1g-dev python-dev
 --------------------------------------------------------------------
 
-Download protobuf version 2.5.0 or later from link:http://code.google.com/p/protobuf/[protobuf]
+Download protobuf version 2.5.0 or later from link:https://github.com/google/protobuf[protobuf]
 
 Extract the package:
 -------------------------------------------------------

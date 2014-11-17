@@ -151,7 +151,7 @@ Artifact conditions are implemented using the
 link:https://code.google.com/p/objectfilter/[objectfilter] system that allows
 you to apply complex conditions to the attributes of an object. Artifacts can
 apply conditions to any of the Knowledge Base object attributes as defined in
-link:https://code.google.com/p/grr/source/browse/proto/knowledge_base.proto[knowledge_base.proto].
+link:https://github.com/google/grr/blob/master/proto/knowledge_base.proto[knowledge_base.proto].
 
 Since OS conditions are a very common constraint, this has been provided as a
 separate option "supported_os" to simplify syntax.  Under the hood, this:

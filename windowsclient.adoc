@@ -117,14 +117,14 @@ C:\Python27\Scripts\easy_install.exe psutil
 -------------------------------------------------------
 
 ==== Using the psutil installer ====
-Download the latest version from: http://code.google.com/p/psutil/downloads/list.
+Download the latest version from: https://pypi.python.org/pypi?:action=display&name=psutil#downloads.
 
 E.g. psutil-0.7.1.win32-py2.7.exe which is the 0.7.1 version of psutil for 32-bit Python 2.7.
 
 And install in C:\Python27\lib\site-packages.
 
 ==== From source ====
-Download the latest version from: http://code.google.com/p/psutil/downloads/list.
+Download the latest version from: https://pypi.python.org/pypi?:action=display&name=psutil#downloads.
 
 E.g. psutil-0.7.1.tar.gz
 
@@ -174,7 +174,7 @@ C:\Python27\python.exe -c "import psutil"
 After installing libprotobuf Python-bindings make sure to do post installation steps.
 
 ==== Using the source ====
-Download the latest version from: http://code.google.com/p/protobuf/downloads/list.
+Download the latest version from: https://github.com/google/protobuf/releases.
 
 E.g. protobuf-0.2.5.zip
 
@@ -189,7 +189,7 @@ Build the solution (or the individually the protoc project)
 ===== Visual Studio 2010 64-bit build =====
 
 See the pytsk "Microsoft Visual Studio 2010 express and 64-bit compilation" for general instructions on how to build a 64-bit library.
-https://code.google.com/p/pytsk/wiki/BuildingForWindows
+https://code.google.com/p/pytsk/wiki/Building#Microsoft_Visual_Studio_2010_express_and_64-bit_compilation
 
 ==== Python-bindings ====
 Build and install the protobuf Python-bindings:
@@ -220,7 +220,7 @@ C:\Python27\lib\site-packages\google\__init__.py
 === Sleuthkit and Pytsk (Python-bindings) ===
 
 Follow the pytsk "Using Microsoft Visual Studio" instructions to get sleuthkit and pytsk  installed:
-https://code.google.com/p/pytsk/wiki/BuildingForWindows
+https://code.google.com/p/pytsk/wiki/Building#Using_Microsoft_Visual_Studio
 
 === M2Crypto ===
 In the prebuilt clients M2Crypto is patched to fix memory leaks. Unfortunately M2Crypto currently seems unmaintained (or at least the maintainer is ignoring everyone). If you do not care about this memory leak download and install the Windows binary for the correct Python version from http://chandlerproject.org/Projects/MeTooCrypto. e.g. M2Crypto-0.21.1.win32-py2.7.exe
@@ -287,9 +287,9 @@ This will install openssl in C:\grr-build\openssl
 Copy C:\grr-build\openssl\bin\libeay32.dll and C:\grr-build\openssl\bin\ssleay32.dll to C:\Python27\lib\site-packages\.
 
 ===== M2Crypto =====
-Download the M2Crypto source from: http://chandlerproject.org/Projects/MeTooCrypto
+Download the M2Crypto source from: https://github.com/martinpaljak/M2Crypto/releases
 
-E.g. M2Crypto-0.21.1.tar.gz
+E.g. M2Crypto-0.22.3.tar.gz
 
 Download the m2crypto-fixes.patch from:
 https://drive.google.com/folderview?id=0B1wsLqFoT7i2aW5mWXNDX1NtTnc&usp=sharing

@@ -8,7 +8,7 @@ Project site: http://www.python.org/
 For more information on licensing see: http://docs.python.org/2/license.html
 
 == pywin32 ==
-Project site: http://pywin32.sourceforge.net/
+Project site: http://sourceforge.net/projects/pywin32/
 
 link:http://opensource.org/licenses/Python-2.0[Python Software Foundation License]
 
@@ -23,12 +23,12 @@ Project site: http://timgolden.me.uk/python/wmi/index.html
 link:http://opensource.org/licenses/MIT[MIT license]
 
 == psutil ==
-Project site:  http://code.google.com/p/psutil/
+Project site: https://github.com/giampaolo/psutil
 
 link:http://opensource.org/licenses/BSD-3-Clause[BSD 3-clause license]
 
 == Libprotobuf and Python-bindings ==
-Project site: http://code.google.com/p/protobuf/
+Project site: https://github.com/google/protobuf/
 
 link:http://opensource.org/licenses/BSD-3-Clause[BSD 3-clause license]
 
@@ -43,10 +43,10 @@ The SleuthKit is mutli licensed
 == Pytsk ==
 Project site: http://code.google.com/p/pytsk/
 
-link:http://www.gnu.org/licenses/gpl-2.0.html[Apache License 2.0]
+link:http://www.apache.org/licenses/LICENSE-2.0[Apache License 2.0]
 
 == M2Crypto ==
-Project site: http://chandlerproject.org/Projects/MeTooCrypto
+Project site: https://github.com/martinpaljak/M2Crypto
 
 == OpenSSL ==
 Project site: http://www.openssl.org/
@@ -54,12 +54,14 @@ Project site: http://www.openssl.org/
 link:http://www.openssl.org/source/license.html[OpenSSL License and original SSLeay license]
 
 == Volatility ==
-*TODO*
+Project site: http://www.volatilityfoundation.org/
+
+link:http://www.gnu.org/licenses/gpl-2.0.html[GPL2]
 
 == Distorm ==
-*TODO*
+Project site: https://code.google.com/p/distorm/
 
-== Yara ==
+link: http://www.gnu.org/licenses/gpl.html[GPL3]
 *TODO*
 
 == pytz ==
@@ -68,6 +70,8 @@ Project site: http://pytz.sourceforge.net/
 link:http://opensource.org/licenses/MIT[MIT license]
 
 == PyInstaller ==
+Project site: https://github.com/pyinstaller/pyinstaller
+
 link:http://www.gnu.org/licenses/gpl-2.0.html[GNU General Public License 2] with an exception for the bootloader, which is the part that is used in GRR binaries.
 
 == JavaScript Libraries ==

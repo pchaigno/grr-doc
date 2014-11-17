@@ -32,8 +32,8 @@ from scratch] instructions:
  - Patched version of M2Crypto 0.21.1
  - Protobuf 2.4.1 (http://code.google.com/p/protobuf/downloads/list)
  - Sleuthkit 3.2.3 (http://www.sleuthkit.org/sleuthkit/download.php)
- - Sleuthkit Python bindings (pytsk) (latest) (http://code.google.com/p/pytsk/downloads/list)
- - psutil 0.6.1 (at minimum 0.5.0) (http://code.google.com/p/psutil/)
+ - Sleuthkit Python bindings (pytsk) (latest) (https://4a014e8976bcea5c2cd7bfa3cac120c3dd10a2f1.googledrive.com/host/0B3fBvzttpiiScUxsUm54cG02RDA/)
+ - psutil 0.6.1 (at minimum 0.5.0) (https://github.com/giampaolo/psutil/releases)
 
 === Volatility ===
 
@@ -41,7 +41,7 @@ Volatility support is added when volatility is available on the build system, ot
 
 Grab a copy of the latest version of the scudette branch:
 --------------------------------------------------------------------------------
-svn checkout http://volatility.googlecode.com/svn/branches/scudette/ volatility
+git clone https://github.com/volatilityfoundation/volatility
 --------------------------------------------------------------------------------
 
 To build volatility:
@@ -52,21 +52,6 @@ python setup.py build
 To install volatility:
 --------------------------------------------------------------------------------
 sudo python setup.py install
---------------------------------------------------------------------------------
-
-Remove the windows plugins since they add distorm3 as a dependency:
---------------------------------------------------------------------------------
-sudo rm -r /usr/local/lib/python2.7/dist-packages/volatility-3.0_tp1-py2.7.egg/volatility/plugins/windows/
---------------------------------------------------------------------------------
-
-And remove the following line:
---------------------------------------------------------------------------------
-from volatility.plugins import windows
---------------------------------------------------------------------------------
-
-From the file:
---------------------------------------------------------------------------------
-/usr/local/lib/python2.7/dist-packages/volatility-3.0_tp1-py2.7.egg/volatility/plugins/__init__.py
 --------------------------------------------------------------------------------
 
 === Building the client ===

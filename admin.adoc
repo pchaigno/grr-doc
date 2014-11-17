@@ -642,8 +642,7 @@ Licensed, tested drivers for OSX, Linux and Windows.
 
 The drivers are distributed with GRR but are also available from the Volatility
 project in binary form at http://code.google.com/p/volatility/downloads/list,
-the source is stored in the scudette branch at
-http://code.google.com/p/volatility/source/browse/#svn%2Fbranches%2Fscudette%2Ftools.
+the source is on GitHub: https://github.com/volatilityfoundation/volatility.
 
 Deploying a driver works much the same as deploying python code. We sign the
 file, encode it in a protobuf and upload it to a specific place in the GRR
@@ -770,7 +769,7 @@ Each crash should contain the reason for the crash, optionally it may contain
 the flow or action that caused the crash. In some cases this information is not
 available because the client may have crashed when it wasn't doing anything or
 in a way where we could not tie it to the action. See
-xref:_client_robustness_mechanisms[Client Robustness Mechanisms] for a
+xref:client-robustness-mechanisms[Client Robustness Mechanisms] for a
 discussion of this.
 
 This data is also emailed to the email address configured in the config as

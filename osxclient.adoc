@@ -51,7 +51,7 @@ The currently preferred method is from source because a patch is applied that fi
 ==== M2Crypto from source ====
 To install M2Crypto from source:
 
-Get the M2Crypto source from: http://chandlerproject.org/bin/view/Projects/MeTooCrypto
+Get the M2Crypto source from: https://github.com/martinpaljak/M2Crypto/releases
 -----------------------------------------------------------------------
 M2Crypto-0.21.1.tar.gz
 -----------------------------------------------------------------------
@@ -112,12 +112,12 @@ sudo mv M2Crypto-0.21.1-py2.7-macosx-10.6-universal.egg M2Crypto-0.21.1-py2.7-ma
       * The process of unzipping it means that the __m2crypto.py which calls pkg_resources won't be run.
 
 === Libprotobuf and Python-bindings ===
-After installing libprotobuf Python-bindings make sure to do post installation steps. At the moment you'll need the SVN version.
+After installing libprotobuf Python-bindings make sure to do post installation steps.
 
 ==== Using the source ====
 Grab a copy of the latest version:
 -----------------------------------------------------------------------
-svn checkout http://protobuf.googlecode.com/svn/trunk/ protobuf
+git checkout https://github.com/google/protobuf/
 -----------------------------------------------------------------------
 
 To build protoc (there is no need to install it):
@@ -237,11 +237,11 @@ sudo ARCHFLAGS='-arch x86_64' easy_install-2.7 -v psutil
 ==== psutil from source ====
 To install psutil from source:
 
-Download the psutil source from: http://code.google.com/p/psutil/downloads/list
+Download the psutil source from: https://github.com/giampaolo/psutil/releases
 
-Or get it from SVN:
+Or get it from Git:
 -----------------------------------------------------------------------
-svn checkout http://psutil.googlecode.com/svn/trunk/ psutil
+git clone https://github.com/giampaolo/psutil
 -----------------------------------------------------------------------
 
 To build and install psutil:

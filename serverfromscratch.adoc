@@ -137,7 +137,7 @@ or to update an existing installation:
 sudo easy_install -U psutil
 -------------------------------------------------------
 
-Otherwise the psutil source can be found on http://code.google.com/p/psutil/
+Otherwise the psutil source can be found on https://github.com/giampaolo/psutil
 
 == GRR ==
 

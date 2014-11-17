@@ -9,9 +9,9 @@ To build M2Crypto from source install the following packages on a Debian-based s
 sudo apt-get install build-essential python-dev swig libssl-dev
 ---------------------------------------------------------------
 
-Get the M2Crypto source from http://chandlerproject.org/bin/view/Projects/MeTooCrypto
+Get the M2Crypto source from https://github.com/martinpaljak/M2Crypto/releases
 -------------------------------------------------------
-M2Crypto-0.21.1.tar.gz
+M2Crypto-0.22.3.tar.gz
 -------------------------------------------------------
 
 Get the m2crypto-fixes.patch from

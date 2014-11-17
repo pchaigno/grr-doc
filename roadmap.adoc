@@ -7,14 +7,14 @@ development team and the pieces of work that have current active development.
  * *UI simplification* One right way to do things, with less options for
    shooting yourself in the foot when scheduling work.
  * *Memory collection and analysis* Move from volatility to the new
-   link:https://code.google.com/p/rekall/[rekall] framework to streamline and
+   link:http://www.rekall-forensic.com/[rekall] framework to streamline and
    enhance memory analysis capabilities.
  * *Data interchange and export* Improved export capabilities for interchanging
    data with other systems.
  * *Shared artifacts support* Extending the existing artifact framework to
    support many new parsers and provide means to interchange these with other
-   projects like link:https://code.google.com/p/plaso/[plaso] and
-   link:https://code.google.com/p/rekall/[rekall].
+   projects like link:https://github.com/log2timeline/plaso[plaso] and
+   link:http://www.rekall-forensic.com/[rekall].
 
 == Next Up ==
  * *Timelining Integration* log2timeline python (plaso) including extending and
